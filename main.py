@@ -1,7 +1,7 @@
 import markdown
 import os
 
-yourpath = "/path/to/directory"
+yourpath = "/Users/kailanakahawaii/console_docs/docs/sso/"
 article_files = []
 
 
@@ -28,7 +28,6 @@ def repl_all(s, sub, repl):
 def convert(files):
     if len(article_files) != 0:
         for article_path in article_files:
-            print(article_path)
             with open(os.path.expanduser(f"{article_path}")) as article:
                 article = article.read()
                 html_article = markdown.markdown(article)

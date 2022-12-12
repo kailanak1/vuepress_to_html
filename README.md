@@ -12,9 +12,10 @@ This script was created to assist with converting Vuepress' [custom containers](
 ## Using this Script 
 
 1. Fork and clone or copy and paste the Python script into an IDE. 
-2. Edit the path and optionally what you'd like the ":::" to be converted to. 
-3. Run main.py. 
-4. Results will print to the console. 
+2. Install the necessary packages. 
+3. Edit the path and optionally what you'd like the ":::" to be converted to. 
+4. Run main.py. 
+5. Results will print to the console. 
 
 ## Acknowledgements 
 

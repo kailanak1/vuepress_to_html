@@ -1,7 +1,7 @@
 import markdown
 import os
 
-yourpath = "/Users/kailanakahawaii/console_docs/docs/sso/"
+yourpath = "/path/to/directory"
 article_files = []
 
 

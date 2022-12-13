@@ -15,7 +15,7 @@ This script was created to assist with converting Vuepress' [custom containers](
 2. Install the necessary packages. 
 3. Edit the path and optionally what you'd like the ":::" to be converted to. 
 4. Run main.py. 
-5. Results will print to the console. 
+5. Creates txt files in html. 
 
 ## Acknowledgements 
 

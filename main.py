@@ -30,7 +30,12 @@ def write_file(s):
 
 
 def repl_all(s):
-    s = s.replace(":::", "<div>")
+    tips = r'(::: tip|:::tip)'
+    warnings = r'(::: warning|:::warning)'
+    details = r'(::: details|:::details)'
+    s = re.sub(tips, '<div class="note tip">', s)
+    s = re.sub(warnings, '<div class="note warning">', s)
+    s = re.sub(details, '<div class="details">', s)
     write_file(s)
 
 
@@ -55,3 +60,5 @@ for root, dirs, files in os.walk(yourpath, topdown=False):
             file_path = os.path.join(root, name)
             article_files.append(file_path)
     convert(article_files)
+
+
